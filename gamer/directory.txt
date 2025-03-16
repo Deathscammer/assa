@@ -1,0 +1,55 @@
+mkdir -p rolsa-technologies/public/css
+mkdir -p rolsa-technologies/public/js
+mkdir -p rolsa-technologies/public/images
+mkdir -p rolsa-technologies/views/partials
+mkdir -p rolsa-technologies/routes
+mkdir -p rolsa-technologies/models
+mkdir -p rolsa-technologies/controllers
+mkdir -p rolsa-technologies/utils
+mkdir -p rolsa-technologies/config
+
+touch rolsa-technologies/public/css/styles.css
+touch rolsa-technologies/public/js/main.js
+
+touch rolsa-technologies/views/partials/header.ejs
+touch rolsa-technologies/views/partials/footer.ejs
+touch rolsa-technologies/views/partials/navbar.ejs
+
+touch rolsa-technologies/views/about.ejs
+touch rolsa-technologies/views/calculator-history.ejs
+touch rolsa-technologies/views/login.ejs
+touch rolsa-technologies/views/products-ev.ejs
+touch rolsa-technologies/views/register.ejs
+touch rolsa-technologies/views/appointments.ejs
+touch rolsa-technologies/views/dashboard.ejs
+touch rolsa-technologies/views/products-smart-home.ejs
+touch rolsa-technologies/views/schedule.ejs
+touch rolsa-technologies/views/calculator.ejs
+touch rolsa-technologies/views/index.ejs
+touch rolsa-technologies/views/products.ejs
+touch rolsa-technologies/views/products-solar.ejs
+
+touch rolsa-technologies/routes/auth.js
+touch rolsa-technologies/routes/dashboard.js
+touch rolsa-technologies/routes/schedule.js
+touch rolsa-technologies/routes/calculator.js
+touch rolsa-technologies/routes/products.js
+
+touch rolsa-technologies/models/db.js
+touch rolsa-technologies/models/userModel.js
+
+touch rolsa-technologies/controllers/authController.js
+touch rolsa-technologies/controllers/dashboardController.js
+touch rolsa-technologies/controllers/scheduleController.js
+touch rolsa-technologies/controllers/calculatorController.js
+touch rolsa-technologies/controllers/productsController.js
+
+touch rolsa-technologies/utils/authMiddleware.js
+touch rolsa-technologies/utils/carbonAPI.js
+
+touch rolsa-technologies/config/passportConfig.js
+
+touch rolsa-technologies/.env
+touch rolsa-technologies/app.js
+touch rolsa-technologies/package.json
+touch rolsa-technologies/README.md
